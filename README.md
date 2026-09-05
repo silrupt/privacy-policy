@@ -1,2 +1,2 @@
 # privacy-policy
-Privacy policy for Ragik App
+Privacy policy for Apps
