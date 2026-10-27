@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Privacy Policy for the 15 doors iOS game."
+  />
+  <title>Privacy Policy · 15 doors</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9f7;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 3rem 3.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07), 0 4px 24px rgba(0,0,0,.05);
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+
+    header .meta {
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    header .meta span {
+      margin-right: 1rem;
+    }
+
+    .intro {
+      background: #f4f4f2;
+      border-left: 3px solid #1a1a1a;
+      border-radius: 0 6px 6px 0;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2.5rem;
+      font-size: 0.975rem;
+      color: #333;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.6rem;
+      color: #111;
+    }
+
+    section p,
+    section li {
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    section p {
+      margin-bottom: 0.6rem;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    section ul,
+    section ol {
+      margin: 0.5rem 0 0.75rem 1.35rem;
+    }
+
+    section li {
+      margin-bottom: 0.25rem;
+      padding-left: 0.2rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 0.3rem 0.75rem;
+      border-radius: 999px;
+      margin-top: 0.5rem;
+      letter-spacing: 0.01em;
+    }
+
+    a {
+      color: #1a1a1a;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    a:hover { opacity: 0.65; }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ebebeb;
+      font-size: 0.85rem;
+      color: #999;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 0; }
+      .container {
+        padding: 2rem 1.5rem;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        <span>15 doors · iOS App</span>
+        <span>Last updated: October 27, 2026</span>
+      </p>
+    </header>
+
+    <p class="intro">
+      15 doors ("the App") is a casual game provided by Silrupt. This Privacy Policy explains what
+      information the App stores on your device, what information is sent to our backend, why it is
+      used, and how you can delete it.
+    </p>
+
+    <section>
+      <h2>1. Data Stored on Your Device</h2>
+      <p>The App stores gameplay information locally on your device, including:</p>
+      <ul>
+        <li>available attempts and energy timing;</li>
+        <li>game progress and highest level;</li>
+        <li>unlocked phrase words, themes, and achievements;</li>
+        <li>tool and reward status;</li>
+        <li>gameplay statistics and preferences;</li>
+        <li>pending leaderboard submissions;</li>
+        <li>a cached copy of the global leaderboard.</li>
+      </ul>
+      <p>This information is used to operate the game and preserve your progress between sessions.</p>
+    </section>
+
+    <section>
+      <h2>2. Anonymous Account and Identifier</h2>
+      <p>
+        The App does not require you to provide a name, email address, password, phone number, or
+        social media account.
+      </p>
+      <p>
+        When a completed run needs to be submitted to the global leaderboard, the App may create an
+        anonymous account through Supabase. This account is identified by a randomly generated user
+        ID.
+      </p>
+      <p>
+        The anonymous ID is used to associate your submitted runs, leaderboard position, and
+        optional nickname with the same game account. It is not intended to directly identify you
+        and is not combined by us with your name, email address, advertising identifier, or contacts.
+      </p>
+      <p>The authentication session is stored in Apple's Keychain on your device.</p>
+    </section>
+
+    <section>
+      <h2>3. Gameplay and Leaderboard Data</h2>
+      <p>When the App submits a run to the leaderboard, it may send:</p>
+      <ul>
+        <li>a randomly generated run ID;</li>
+        <li>run start and end times;</li>
+        <li>run duration;</li>
+        <li>highest level reached and whether the run was completed;</li>
+        <li>lives and tools used;</li>
+        <li>first-try gameplay statistics;</li>
+        <li>App version and anonymous account ID.</li>
+      </ul>
+      <p>This information is used to:</p>
+      <ul>
+        <li>calculate leaderboard results and preserve your ranking;</li>
+        <li>prevent duplicate submissions;</li>
+        <li>validate run plausibility and reduce cheating;</li>
+        <li>maintain the game's attempt and energy system;</li>
+        <li>diagnose submission errors.</li>
+      </ul>
+      <p>The App does not send the doors you selected on each level.</p>
+    </section>
+
+    <section>
+      <h2>4. Public Nicknames and Leaderboard</h2>
+      <p>
+        After reaching the required level, you may choose an optional nickname. Your nickname,
+        leaderboard rank, highest level, and best-level count may be displayed publicly in the App
+        and on related 15 doors services.
+      </p>
+      <p>
+        Do not use your real name or include personal information in your nickname if you do not
+        want it to be public.
+      </p>
+      <p>
+        Nicknames are validated and may be renamed, hidden, or removed if they are inappropriate or
+        violate our rules.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Limited Product Analytics</h2>
+      <p>
+        The App may record limited product interactions, such as interest in a planned support
+        feature. These events are associated only with the anonymous account ID and are used to
+        understand which App features players are interested in.
+      </p>
+      <p>We do not use this information for advertising, cross-app tracking, or profiling.</p>
+    </section>
+
+    <section>
+      <h2>6. Motion and Sharing</h2>
+      <p>
+        The App may process accelerometer data on your device to detect a shake gesture used for a
+        hidden in-game reward. Raw motion data is not stored or transmitted to our servers.
+      </p>
+      <p>
+        If you choose to share a result, the App creates share text and presents Apple's system
+        share sheet. The App does not receive the identity of the recipient or a list of the services
+        you use to share it.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Information We Do Not Collect</h2>
+      <p>We do not intentionally collect:</p>
+      <ul>
+        <li>your real name, email address, or phone number;</li>
+        <li>advertising identifiers;</li>
+        <li>precise or approximate location;</li>
+        <li>contacts, photos, microphone recordings, or camera data;</li>
+        <li>health or fitness information;</li>
+        <li>payment or financial information;</li>
+        <li>browsing history or data for third-party advertising.</li>
+      </ul>
+      <p>There are no advertisements and no in-app purchases in the current version of the App.</p>
+    </section>
+
+    <section>
+      <h2>8. Service Providers</h2>
+      <p>
+        The App uses
+        <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase</a>
+        to provide anonymous authentication, run submission, nickname management, leaderboard
+        functionality, and account deletion.
+      </p>
+      <p>
+        Supabase may process technical request information, such as IP address and request metadata,
+        as necessary to provide, secure, and maintain its service. Supabase processes information
+        under its own privacy and security terms.
+      </p>
+      <p>
+        The App may contact an Apple-operated website to obtain a trusted time value for the
+        in-game attempt system. Apple may process the request under
+        <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
+          Apple's Privacy Policy
+        </a>.
+      </p>
+      <p>We do not allow these services to use App data for advertising on our behalf.</p>
+    </section>
+
+    <section>
+      <h2>9. Analytics, Advertising, and Tracking</h2>
+      <p>
+        15 doors does not include third-party advertising SDKs and does not perform cross-app
+        tracking. We do not sell your personal information or use your gameplay data or nickname to
+        build advertising profiles.
+      </p>
+      <span class="badge">✓ No Tracking · No Advertising</span>
+    </section>
+
+    <section>
+      <h2>10. Storage, Retention, and Deletion</h2>
+      <p>
+        Local gameplay data remains on your device until you delete it through the App, reset the
+        relevant progress, or remove the App, subject to backups managed through your Apple settings.
+        Leaderboard information remains on our backend while your anonymous leaderboard account
+        exists.
+      </p>
+      <p>You can delete your account from inside the App:</p>
+      <ol>
+        <li>Open the main screen.</li>
+        <li>Tap the trophy icon.</li>
+        <li>Scroll to the bottom.</li>
+        <li>Tap "Delete leaderboard account".</li>
+        <li>Confirm deletion.</li>
+      </ol>
+      <p>
+        Successful account deletion removes the anonymous account, submitted runs, nickname, and
+        associated leaderboard statistics from our backend. It also resets local game progress on
+        that device.
+      </p>
+      <p>
+        Deleting the App by itself may not remove the anonymous authentication credential stored in
+        Apple's Keychain. To request complete deletion, use "Delete leaderboard account" before
+        removing the App.
+      </p>
+      <p>Apple may retain device backups under Apple's own terms and privacy policy.</p>
+    </section>
+
+    <section>
+      <h2>11. App Store Privacy Label</h2>
+      <p>The App Store privacy label for 15 doors may disclose the following categories:</p>
+      <ul>
+        <li>Identifiers — anonymous user ID;</li>
+        <li>Usage Data — gameplay and product interaction;</li>
+        <li>User Content — optional public nickname.</li>
+      </ul>
+      <p>
+        These categories are used for App Functionality, are not used for tracking, and are not
+        linked by us to your real-world identity.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Data Security</h2>
+      <p>
+        Network communication uses HTTPS/TLS. Authentication credentials are stored using Apple's
+        Keychain. We use access controls and server-side rules intended to prevent unauthorized
+        access and modification.
+      </p>
+      <p>
+        However, no electronic storage or transmission method can be guaranteed to be completely
+        secure.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Children's Privacy</h2>
+      <p>
+        15 doors is not directed at children under the age of 13. We do not knowingly collect
+        personal information from children under 13. If you are a parent or guardian and believe a
+        child has provided personal information through the App, contact us so that we can review
+        and delete it.
+      </p>
+    </section>
+
+    <section>
+      <h2>14. Changes to This Privacy Policy</h2>
+      <p>
+        If we update this Privacy Policy, the revised version will be posted at the same public URL
+        and the "Last updated" date will be changed. We encourage you to review this Privacy Policy
+        periodically.
+      </p>
+      <p>Continued use of 15 doors after an update constitutes acceptance of the revised policy.</p>
+    </section>
+
+    <section>
+      <h2>15. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, the App, or deletion of your information,
+        contact:
+      </p>
+      <p>Email: <a href="mailto:support@silrupt.com">support@silrupt.com</a></p>
+    </section>
+
+    <footer>
+      &copy; 2026 Silrupt. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
